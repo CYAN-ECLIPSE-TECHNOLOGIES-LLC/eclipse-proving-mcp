@@ -1,0 +1,36 @@
+test_hwserver_stub_p1_only (test_proving.AdapterParity.test_hwserver_stub_p1_only) ... ok
+test_x4_qemu_happy (test_proving.AdapterParity.test_x4_qemu_happy) ... ok
+test_x5_renode_parity (test_proving.AdapterParity.test_x5_renode_parity) ... ok
+test_d1_one_byte_off (test_proving.Distinguishing.test_d1_one_byte_off) ... ok
+test_d2_dropped_session (test_proving.Distinguishing.test_d2_dropped_session) ... ok
+test_d3_offline_pack_verification (test_proving.Distinguishing.test_d3_offline_pack_verification) ... ok
+test_caps_boundary_exact (test_proving.Functional.test_caps_boundary_exact) ... ok
+test_happy_path_fixture (test_proving.Functional.test_happy_path_fixture) ... ok
+test_memory_write_readback_and_bounds (test_proving.Functional.test_memory_write_readback_and_bounds) ... ok
+test_read_only_session (test_proving.Functional.test_read_only_session) ... ok
+test_schema_enumerating_fuzz_valid_context (test_proving.Fuzz.test_schema_enumerating_fuzz_valid_context) ... ok
+test_bench_freeze_semantics (test_proving.Hostile.test_bench_freeze_semantics) ... ok
+test_h10_power_during_window_not_queued (test_proving.Hostile.test_h10_power_during_window_not_queued) ... ok
+test_h11_permanent_ops_absent (test_proving.Hostile.test_h11_permanent_ops_absent) ... ok
+test_h12_evidence_sabotage (test_proving.Hostile.test_h12_evidence_sabotage) ... ok
+test_h13_class_laundering (test_proving.Hostile.test_h13_class_laundering) ... ok
+test_h14_wildcards (test_proving.Hostile.test_h14_wildcards) ... ok
+test_h15_replay_is_a_new_session (test_proving.Hostile.test_h15_replay_is_a_new_session) ... ok
+test_h1_h2_substitution_and_wrong_board (test_proving.Hostile.test_h1_h2_substitution_and_wrong_board) ... ok
+test_h3_pin_attacks (test_proving.Hostile.test_h3_pin_attacks) ... ok
+test_h4_mandate_attacks (test_proving.Hostile.test_h4_mandate_attacks) ... ok
+test_h5_lease_escape (test_proving.Hostile.test_h5_lease_escape) ... ok
+test_h6_tcl_smuggling (test_proving.Hostile.test_h6_tcl_smuggling) ... ok
+test_h7_no_unauthenticated_adapter_path (test_proving.Hostile.test_h7_no_unauthenticated_adapter_path) ... ok
+test_h8_t3_gates (test_proving.Hostile.test_h8_t3_gates) ... ok
+test_h8b_arm_tamper_and_expiry_at_close (test_proving.Hostile.test_h8b_arm_tamper_and_expiry_at_close) ... ok
+test_h9_revocation_mid_write_dead_man (test_proving.Hostile.test_h9_revocation_mid_write_dead_man) ... ok
+test_ed25519_rfc8032_vector (test_proving.SurfaceAndSpec.test_ed25519_rfc8032_vector) ... ok
+test_gate_unknown_assertion_refuses (test_proving.SurfaceAndSpec.test_gate_unknown_assertion_refuses) ... ok
+test_refusal_enum_matches_spec_verbatim (test_proving.SurfaceAndSpec.test_refusal_enum_matches_spec_verbatim) ... ok
+test_tool_surface_exactly_22 (test_proving.SurfaceAndSpec.test_tool_surface_exactly_22) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 44.661s
+
+OK

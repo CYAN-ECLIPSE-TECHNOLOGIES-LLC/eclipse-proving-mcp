@@ -1,0 +1,8 @@
+{
+ "adapter": "fixture",
+ "note": "synthetic corpus trace (\u00a712.2); replayed semantics live in adapters/base.py BOOT_BANNER",
+ "console_lines": [
+  "U-Boot 2023.01 ZynqMP ZCU102",
+  "Linux version 6.1.5-xilinx"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "artifacts": {
+  "art-qemu-elf": {
+   "artifact_class": "elf",
+   "file": "qemu-app.elf"
+  },
+  "art-renode-elf": {
+   "artifact_class": "elf",
+   "file": "renode-app.elf"
+  },
+  "art-slow-elf": {
+   "artifact_class": "elf",
+   "file": "slow.elf",
+   "window_hold": true
+  },
+  "art-zcu102-bitstream": {
+   "artifact_class": "bitstream",
+   "file": "top.bit"
+  },
+  "art-zcu102-boot": {
+   "artifact_class": "boot_image",
+   "file": "boot.bin"
+  },
+  "art-zcu102-elf": {
+   "artifact_class": "elf",
+   "file": "app.elf"
+  },
+  "art-zcu102-elf-onebyte": {
+   "artifact_class": "elf",
+   "file": "app-onebyte.elf"
+  }
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "mandates": [
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0",
+      "T1",
+      "T2",
+      "T3"
+     ]
+    },
+    {
+     "board_id": "fixture-norecovery-01",
+     "tiers": [
+      "T0",
+      "T1",
+      "T2",
+      "T3"
+     ]
+    },
+    {
+     "board_id": "qemu-zcu102-01",
+     "tiers": [
+      "T0",
+      "T1",
+      "T2"
+     ]
+    },
+    {
+     "board_id": "renode-zcu102-01",
+     "tiers": [
+      "T0",
+      "T1",
+      "T2"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "de1fc3ef72d5d5025d51bc159a7e5ed92c52903cdd052ca6cb9144db0974277dbf97f6f0388c2b133cb0682627968fbc1e2ff421f77cf99d80eacd4be0a86802",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-full",
+   "pins": [
+    "pin-elf-good",
+    "pin-bitstream-good",
+    "pin-boot-good",
+    "pin-slow-elf",
+    "pin-qemu-elf",
+    "pin-renode-elf",
+    "pin-wrong-board",
+    "pin-expired",
+    "pin-revoked",
+    "pin-forged"
+   ],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "1ad39268b3c81a443f8a9e527ce3ae63479316f1b98264975022c5a39049d8c6f37b60c0a84b0199908c6f193de2edc3c742c849b2d53e6f2dd721a2b0d26405",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-t0",
+   "pins": [],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0",
+      "T1",
+      "T2"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 1,
+    "max_power_cycles": 1,
+    "max_read_bytes": 1024,
+    "max_write_bytes": 64
+   },
+   "herald_signature": "0a0dbea530fa299574241637a4a755eac962a76b9307d67b309050484d0632bd99203361527f50067836149c2eacc841ba36b907dc16d602497263f927279608",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-capped",
+   "pins": [
+    "pin-elf-good"
+   ],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "c2d1a018bb0d3821b5a14e386ab8a87c5af05defcd3bca72030e3dd1141f29b96b0f1e761a11b26d2edc08a6e53c51b18b7061a071feb5c47dcedee45f1c4502",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-expired",
+   "pins": [],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2025-06-01T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "042241294150c90e242f4c2665929d466b2be2dd3a2177717f5d40f8cd87e34559cfc34ba796ca8084648fddb7b5e23b838115baa38e4f6fafc5103a0994530d",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-revoked",
+   "pins": [],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-w002",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "7e1ea4284a312d8b896e01043f723200fe7c9db65bd2f4c7dd6e5cffcb75681a8487fb5d51f62c90cb91e8a3dd14626f440cf2a26820a047d9c8a108665df105",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-forged",
+   "pins": [],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  },
+  {
+   "agent_identity": "herald-card-unknown",
+   "boards": [
+    {
+     "board_id": "fixture-zcu102-01",
+     "tiers": [
+      "T0"
+     ]
+    }
+   ],
+   "caps": {
+    "max_loads": 100,
+    "max_power_cycles": 100,
+    "max_read_bytes": 1000000,
+    "max_write_bytes": 1000000
+   },
+   "herald_signature": "2ba85b47436c9d370207fdd2837362b2ee5b2b4e236371790383d5c2c267998e2b4a4abc2f5ccdaea55abc886b37b02a9d4e5d94189d8e311572401ea3f6dd0b",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "kill": {
+    "revocation_ref": "herald-revocation-feed (fixture)"
+   },
+   "mandate_id": "mandate-other-agent",
+   "pins": [],
+   "principal": "owner-acevvs",
+   "session_bounds": {
+    "expires_at": "2027-12-31T00:00:00+00:00",
+    "max_duration_s": 3600,
+    "max_sessions": 50,
+    "not_before": "2026-01-01T00:00:00+00:00"
+   }
+  }
+ ]
+}

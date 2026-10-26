@@ -1,0 +1,154 @@
+{
+ "pins": [
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+   "expires_at": null,
+   "herald_signature": "4a0a402ec5eff82830f58d9065c05117a07d2f94198f36fecd8b075592c315d0a72023ba195220c0e4b469972049b901cd7ca7a343d86c4ccd7fd354dc9a0a0b",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-elf-good",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "bitstream",
+   "artifact_sha256": "5cbe1b906b1d0031450ff37722477f4223321d37a64db69abd48801fdf1a7b7e",
+   "expires_at": null,
+   "herald_signature": "114104142eeb4bf815146922260fa50ad425ddfaa1ee0d83ed33a0df9c5f9cbb14d544dc9017b489c2d6c20dceb2d51f0b1774317091b2785e59600fc62f5f07",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-bitstream-good",
+   "size_bytes": 4096,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "boot_image",
+   "artifact_sha256": "0c2c7ef6a66d8312de16a6cfc970136ede4029d2f1f9ba9a24a3974f25cfaab2",
+   "expires_at": null,
+   "herald_signature": "5f10d485332b62657a7904021f819939e129ae553ecd5d041d396eed0785bf9e4fecb896accd48d60c961327602ddd49d496333fce9923da86ec404b11748c04",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-boot-good",
+   "size_bytes": 1024,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "24c013876d393f9422e9cc3093cb171e10c63b53f63b6069d529a12787e793ed",
+   "expires_at": null,
+   "herald_signature": "c1833d85ef135c6f66f659dea6bcbb9a373abca404f587494396fdcca53dc65d183d514d644c65766a87c2f4d90005ea9df4376bb7557d8d01709ffeb829830c",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-slow-elf",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "3168bf2b33b64d03fe2b7ed6c36585cd9582ae1208c5212055eed57f0013cb20",
+   "expires_at": null,
+   "herald_signature": "e6d2d6180a6c500284fa4bd096875aa24c81cc7d010feeef5106c6a88cde518d1afd2e66a05ad370c044b503e7c80e798a54fb80cba38b13bad7ae92a3812101",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-qemu-elf",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "qemu-zcu102-01",
+    "device_part": "qemu-zcu102"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "6aba4f6a0d22449d381b8ce72bf32a262c0efa7b0a54a9fb6328850950b074cf",
+   "expires_at": null,
+   "herald_signature": "e8428490e3ef8e90028501dbe41e70287f442d97e24cd1dd7773d5bbe4b00328a0fc0a555417e9feca5d20569259367709b089ce307b86c96795d5a2616d4108",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-renode-elf",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "renode-zcu102-01",
+    "device_part": "renode-zcu102-revA"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+   "expires_at": null,
+   "herald_signature": "7bb63db32d657ac5717dd44aa8c154c584223fbf8733bf3f43efa608655fab5df0df9af212df98d41b6ea233991c9e3a5af319f5e51091c36ac036a4249c7904",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-wrong-board",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "qemu-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+   "expires_at": "2025-01-01T00:00:00+00:00",
+   "herald_signature": "6c71154f1e861a205070ee6b1d64c9b555467d7842117fee5d3d6e74f4fee8635b2a61a749da5b2af8cc71dab797523904c30221976d540782a194b30b7c520e",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-expired",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+   "expires_at": null,
+   "herald_signature": "4497661598816810109a7ea3d9c55f87842336a2ddb30b18f653f85df3abe449ed3d9bd3d86cbdae53e7fd2349630a13e1825ba52e301950cebbc296306eca07",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-revoked",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  },
+  {
+   "approval_scope": "P0 fixture/emulator sessions",
+   "approver_identity": "herald-approver-owner",
+   "artifact_class": "elf",
+   "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+   "expires_at": null,
+   "herald_signature": "b62c5ff5e4285e7da59b04a1116f96f3470b4a914336e3ed27441ffac456e7ec95546f7f955ef6ff3abdf52bdb900676d56fff488870c5e87632c4ad5757b605",
+   "issued_at": "2026-10-25T00:00:00+00:00",
+   "pin_id": "pin-forged",
+   "size_bytes": 2048,
+   "target_constraints": {
+    "board_id": "fixture-zcu102-01",
+    "device_part": "xczu9eg-ffvb1156-2-e"
+   }
+  }
+ ]
+}

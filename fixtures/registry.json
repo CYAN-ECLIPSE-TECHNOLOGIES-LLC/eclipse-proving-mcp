@@ -1,0 +1,163 @@
+{
+ "boards": [
+  {
+   "adapter": "fixture",
+   "board_id": "fixture-zcu102-01",
+   "board_rev": "B",
+   "device_part": "xczu9eg-ffvb1156-2-e",
+   "dna": "0x1a2b3c4d",
+   "media": [
+    {
+     "kind": "qspi",
+     "media_id": "qspi0",
+     "recovery_path_ref": "owner-bench-jtag-restore-v1",
+     "size_bytes": 4096
+    }
+   ],
+   "silicon_rev": "2.0",
+   "strap_state": "JTAG",
+   "target_class": "fixture",
+   "targets": [
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "apu",
+     "target_id": "apu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "rpu",
+     "target_id": "rpu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "pmu",
+     "target_id": "pmu"
+    },
+    {
+     "address_map_ref": "zcu102-pl",
+     "kind": "pl",
+     "target_id": "pl"
+    }
+   ]
+  },
+  {
+   "adapter": "fixture",
+   "board_id": "fixture-norecovery-01",
+   "board_rev": "B",
+   "device_part": "xczu9eg-ffvb1156-2-e",
+   "dna": "0x5e6f7788",
+   "media": [
+    {
+     "kind": "qspi",
+     "media_id": "qspi0",
+     "size_bytes": 4096
+    }
+   ],
+   "silicon_rev": "2.0",
+   "strap_state": "JTAG",
+   "target_class": "fixture",
+   "targets": [
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "apu",
+     "target_id": "apu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "rpu",
+     "target_id": "rpu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "pmu",
+     "target_id": "pmu"
+    },
+    {
+     "address_map_ref": "zcu102-pl",
+     "kind": "pl",
+     "target_id": "pl"
+    }
+   ]
+  },
+  {
+   "adapter": "qemu_xsdb",
+   "board_id": "qemu-zcu102-01",
+   "board_rev": "1.0",
+   "device_part": "qemu-zcu102",
+   "dna": null,
+   "media": [
+    {
+     "kind": "sd",
+     "media_id": "sd0",
+     "recovery_path_ref": "emulator-snapshot-restore-v1",
+     "size_bytes": 8192
+    }
+   ],
+   "silicon_rev": null,
+   "strap_state": "JTAG (emulator report)",
+   "target_class": "emulator",
+   "targets": [
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "apu",
+     "target_id": "apu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "rpu",
+     "target_id": "rpu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "pmu",
+     "target_id": "pmu"
+    },
+    {
+     "address_map_ref": "zcu102-pl",
+     "kind": "pl",
+     "target_id": "pl"
+    }
+   ]
+  },
+  {
+   "adapter": "renode",
+   "board_id": "renode-zcu102-01",
+   "board_rev": "A",
+   "device_part": "renode-zcu102-revA",
+   "dna": null,
+   "media": [
+    {
+     "kind": "sd",
+     "media_id": "sd0",
+     "recovery_path_ref": "emulator-snapshot-restore-v1",
+     "size_bytes": 8192
+    }
+   ],
+   "silicon_rev": null,
+   "strap_state": "JTAG (emulator report)",
+   "target_class": "emulator",
+   "targets": [
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "apu",
+     "target_id": "apu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "rpu",
+     "target_id": "rpu"
+    },
+    {
+     "address_map_ref": "zcu102-ps",
+     "kind": "pmu",
+     "target_id": "pmu"
+    },
+    {
+     "address_map_ref": "zcu102-pl",
+     "kind": "pl",
+     "target_id": "pl"
+    }
+   ]
+  }
+ ]
+}

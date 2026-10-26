@@ -1,0 +1,78 @@
+{
+ "sets": [
+  {
+   "assertions": [
+    {
+     "pattern": "Linux version",
+     "type": "boot_banner"
+    },
+    {
+     "text": "zynqmp login",
+     "type": "console_contains"
+    },
+    {
+     "artifact_sha256": "7c7272c96bd53928d659650ce0d351531ccca5b7ce618d14f48ec5c8ffd4919f",
+     "type": "loaded_hash_eq"
+    },
+    {
+     "expected": "on",
+     "type": "power_state_eq"
+    },
+    {
+     "type": "receipt_chain_valid"
+    }
+   ],
+   "author": "cetech-fixture",
+   "created_at": "2026-10-25T00:00:00+00:00",
+   "set_id": "set-boot-basic"
+  },
+  {
+   "assertions": [
+    {
+     "pattern": "Linux version",
+     "type": "boot_banner"
+    },
+    {
+     "artifact_sha256": "3168bf2b33b64d03fe2b7ed6c36585cd9582ae1208c5212055eed57f0013cb20",
+     "type": "loaded_hash_eq"
+    },
+    {
+     "expected": "on",
+     "type": "power_state_eq"
+    }
+   ],
+   "author": "cetech-fixture",
+   "created_at": "2026-10-25T00:00:00+00:00",
+   "set_id": "set-qemu-boot"
+  },
+  {
+   "assertions": [
+    {
+     "pattern": "Linux version",
+     "type": "boot_banner"
+    },
+    {
+     "artifact_sha256": "6aba4f6a0d22449d381b8ce72bf32a262c0efa7b0a54a9fb6328850950b074cf",
+     "type": "loaded_hash_eq"
+    },
+    {
+     "expected": "on",
+     "type": "power_state_eq"
+    }
+   ],
+   "author": "cetech-fixture",
+   "created_at": "2026-10-25T00:00:00+00:00",
+   "set_id": "set-renode-boot"
+  },
+  {
+   "assertions": [
+    {
+     "type": "magic_check"
+    }
+   ],
+   "author": "cetech-fixture",
+   "created_at": "2026-10-25T00:00:00+00:00",
+   "set_id": "set-bad-vocab"
+  }
+ ]
+}
