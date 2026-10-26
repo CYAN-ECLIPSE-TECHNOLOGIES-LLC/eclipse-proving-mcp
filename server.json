@@ -1,0 +1,8 @@
+{
+ "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+ "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/proving",
+ "title": "Eclipse Proving MCP",
+ "description": "Governed bench access for agents \u2014 signed mandates, pinned artifacts, evidence for every session.",
+ "version": "0.1.0",
+ "websiteUrl": "https://eclipsebazaar.com"
+}
